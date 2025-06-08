@@ -40,10 +40,6 @@ df = pldata.stocks(return_type='pandas', indexed=False, datetimes=True) # This l
 app = Dash(__name__)
 server = app.server
 
-# Initialize Dash app
-app = Dash(__name__) # This creates the app object, to wich various things are added below. 
-# __name__ is the name of the running Python module, which is your main module in this case
-
 # Layout: This section creates the HTML components
 app.layout = html.Div([ # This div is for the dropdown you see at the top, and also for the graph itself
     dcc.Dropdown( # This creates the dropdown
