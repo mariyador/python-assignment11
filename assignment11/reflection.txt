@@ -1,0 +1,10 @@
+Reflection on Visualizations
+
+Static vs. Interactive Visualizations:
+Static visualizations (like pictures or simple charts) do not change. They are good for showing one idea. Interactive visualizations (like charts in Plotly or Dash) let people move, click, and explore data. This helps people learn more and ask their own questions.
+
+Why Dashboards Are Useful:
+Dashboards show many charts and numbers in one place. People can choose a country, year, or other options and see how data changes. This helps teams see what is happening now and make fast decisions.
+
+Why Plotly and Dash Are Good for Work:
+Tools like Plotly and Dash help people show data in a clear and fun way. They help teams, managers, and clients understand data better. People do not need to read long reports — they can just look, click, and learn.
