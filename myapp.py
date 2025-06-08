@@ -69,3 +69,4 @@ if __name__ == "__main__": # if this is the main module of the program, and not 
 
 app = Dash(__name__)
 server = app.server
+
