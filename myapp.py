@@ -37,6 +37,8 @@ import plotly.data as pldata # This is only needed to give access to the Plotly 
 
 df = pldata.stocks(return_type='pandas', indexed=False, datetimes=True) # This loads one of the datasets
 
+app = Dash(__name__)
+server = app.server
 
 # Initialize Dash app
 app = Dash(__name__) # This creates the app object, to wich various things are added below. 
@@ -65,8 +67,4 @@ def update_graph(symbol): # This function is what actually does the plot, by cal
 # Run the app
 if __name__ == "__main__": # if this is the main module of the program, and not something included by a different module
     app.run(debug=True) # start the Flask web server
-
-
-app = Dash(__name__)
-server = app.server
 
