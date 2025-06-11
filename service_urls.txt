@@ -1,7 +1,10 @@
 Assignment 11: Advanced Data Visualization
 
-Link: https://python-assignment11-mariya-doronkina-test.onrender.com/
 
-Task 2
+Link: https://python-assignment11-mariya-doronkina-test.onrender.com/
+Code: https://github.com/mariyador/python-assignment11/
+
+Optional Assignment on Streamlit
 
 Link: https://mariyadoronkina-test.streamlit.app/
+Code: https://github.com/mariyador/streamlit-assignment
